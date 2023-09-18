@@ -1,0 +1,29 @@
+{
+  "name": "nx-demo",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/cypress": "16.8.1",
+    "@nx/devkit": "16.8.1",
+    "@nx/eslint-plugin": "16.8.1",
+    "@nx/express": "16.8.1",
+    "@nx/jest": "16.8.1",
+    "@nx/js": "16.8.1",
+    "@nx/linter": "16.8.1",
+    "@nx/node": "16.8.1",
+    "@nx/plugin": "16.8.1",
+    "@nx/react": "16.8.1",
+    "@nx/rollup": "16.8.1",
+    "@nx/storybook": "16.8.1",
+    "@nx/web": "16.8.1",
+    "@nx/webpack": "16.8.1",
+    "@nx/workspace": "16.8.1",
+    "nx": "16.8.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

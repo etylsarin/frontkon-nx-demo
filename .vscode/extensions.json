@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    
+    "nrwl.angular-console",
+    "jevakallio.vscode-hacker-typer",
+    "esbenp.prettier-vscode",
+    "unifiedjs.vscode-mdx",
+    "wix.vscode-import-cost",
+    "codezombiech.gitignore",
+    "dbaeumer.vscode-eslint",
+    "mikestead.dotenv",
+    "clinyong.vscode-css-modules",
+    "formulahendry.auto-rename-tag",
+    
+  ]
+}
