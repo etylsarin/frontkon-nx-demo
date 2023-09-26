@@ -3012,7 +3012,7 @@
     remark-slug "^6.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-essentials@^7.2.1":
+"@storybook/addon-essentials@7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-7.4.5.tgz#b580713a015dfe6317c211d16ba10a6db7026f6f"
   integrity sha512-H7zZWJXZP0UU2kXfo9zlQfjIKHuuqYBK7PZ2/SL5y08mTrbtt1BfqYScz3xRvHocaFcsBWCXdy8jJULT4KFUpw==
@@ -3041,7 +3041,7 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.4.5"
 
-"@storybook/addon-interactions@^7.2.1":
+"@storybook/addon-interactions@7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.4.5.tgz#9a8963ceb20d3867b3d8fe6fda70b13da2bc8a1d"
   integrity sha512-KDdV/THxj38VsuOevrUefev0rZPhzqUXCgrw1Jc2PsJGidHf9d9nnB7wbA9ZFYsxTz90M/Vk5sm7i1QkMmsquA==
@@ -3311,7 +3311,7 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/core-server@^7.2.1":
+"@storybook/core-server@7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-server/-/core-server-7.4.5.tgz#df6bba0178b2470789103463450461d39de54279"
   integrity sha512-cW+Qx9Ls823577bd/s9Kv4M1MdKS8mkk6/+nYbwtAwH3hkdlb077rlk/ue0X4O9NZmCrtaJ84KNrBkeDUdFyLQ==
@@ -3556,7 +3556,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.4.5.tgz#77c27c169aaacbeb0a601a53f81421abcfbe8d1c"
   integrity sha512-/hGe8yuiWbT7L3ZsllmJPgxT9MEQE3k23FhliyKx6IGHsWoYaEsPYPZ9tygqtKY8RpqqMUKWz8+kbO79zUxaoQ==
 
-"@storybook/react-webpack5@^7.2.1":
+"@storybook/react-webpack5@7.4.5":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@storybook/react-webpack5/-/react-webpack5-7.4.5.tgz#fa5c2e4204144deb2eaa3f0b894ffd22c2c8f8d9"
   integrity sha512-2IgGuj/s6mZZoK22i7IfSSpkE00m1t/o9+C7Vxw+m79N/cyMbfmxuNJJATV9NZMrBd65UKACTitolM+ZneqB5Q==
@@ -8642,6 +8642,18 @@ html-tags@^3.1.0:
     html-minifier-terser "^6.0.2"
     lodash "^4.17.21"
     pretty-error "^4.0.0"
+    tapable "^2.0.0"
+
+html-webpack-plugin@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.0.0.tgz#457a9defb33ce368135078b4e0387a27f3fe244d"
+  integrity sha512-kxTyb8cyZwEyUqXTgdHRUOF4C7uCrquzw2T+YTudehm/yspodgCkREjdmc4dXI8k2P4NEjqOVbnOOlPZg4TKJA==
+  dependencies:
+    "@types/html-minifier-terser" "^5.0.0"
+    html-minifier-terser "^5.0.1"
+    loader-utils "^2.0.0"
+    lodash "^4.17.20"
+    pretty-error "^2.1.1"
     tapable "^2.0.0"
 
 htmlparser2@^3.9.2:
@@ -14594,7 +14606,7 @@ webpack-virtual-modules@^0.5.0:
   resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.5.0.tgz#362f14738a56dae107937ab98ea7062e8bdd3b6c"
   integrity sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==
 
-webpack@5, webpack@^5.80.0:
+webpack@5, webpack@^5.20.0, webpack@^5.80.0:
   version "5.88.2"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.88.2.tgz#f62b4b842f1c6ff580f3fcb2ed4f0b579f4c210e"
   integrity sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==
