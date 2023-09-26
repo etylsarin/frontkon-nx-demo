@@ -25,8 +25,8 @@ nx g @nx/react:remote login --host=dashboard
 5. Create new React component library
 
 ```
-nx g @nx/react:library components --bundler=rollup --publishable --importPath=components --component=false
-nx g @nx/react:component table --project=components
+nx g @nx/react:library --name=components --bundler=rollup --publishable --importPath=components --component=false
+nx g @nx/react:component greeting --project=components
 ```
 
 ```
