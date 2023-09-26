@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    
     "nrwl.angular-console",
     "jevakallio.vscode-hacker-typer",
     "esbenp.prettier-vscode",
@@ -11,6 +10,6 @@
     "mikestead.dotenv",
     "clinyong.vscode-css-modules",
     "formulahendry.auto-rename-tag",
-    
+    "firsttris.vscode-jest-runner"
   ]
 }
