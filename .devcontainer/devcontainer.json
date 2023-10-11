@@ -1,0 +1,7 @@
+{
+    "forwardPorts": [
+		4200,
+		4201
+	],
+    "postAttachCommand": "/bin/bash .devcontainer/setup.sh"
+}
