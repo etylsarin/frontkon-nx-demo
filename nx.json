@@ -9,7 +9,8 @@
           "test",
           "e2e",
           "server",
-          "build-storybook"
+          "build-storybook",
+          "component-test"
         ]
       }
     }
@@ -38,6 +39,11 @@
         "linter": "eslint",
         "unitTestRunner": "jest"
       }
+    }
+  },
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": true
     }
   }
 }

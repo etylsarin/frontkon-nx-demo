@@ -8,47 +8,40 @@
 yarn create nx-workspace
 ```
 
-3. Create new React host application
+3. Create new React host & remote applications
 
 ```
-nx g @nx/react:application dashboard --routing
-nx g @nx/react:host dashboard
+nx g @nx/react:host host --remotes=remote
 ```
 
-4. Create new React remote application
-
-```
-nx g @nx/react:application login
-nx g @nx/react:remote login --host=dashboard
-```
-
-5. Create new React component library
+4. Create new React component library
 
 ```
 nx g @nx/react:library --name=components --bundler=rollup --publishable --importPath=components --component=false
-nx g @nx/react:component greeting --project=components
+nx g @nx/react:component frontkon --project=components
 ```
 
-```
-app.get('/api/dashboard', (req, res) => {
-  res.send('Received a GET HTTP method');
-});
-```
 
-6. Create a storybook for the component library
+5. Create a storybook for the component library
 
 ```
 nx g @nx/react:storybook-configuration components
 ```
 
-7. Add cypress component testing to the component library
+6. Add cypress component testing to the component library
 
 ```
-nx g @nx/react:cypress-component-configuration --project=components
+nx g @nx/react:cypress-component-configuration --project=components --build-target=components:build
 ```
 
-7. Create a new interfaces library
+7. Show dependency graph
 
 ```
-nx g @nx/workspace:library interfaces
+nx graph
+```
+
+8. Migrate nx to the latest version
+
+```
+nx migrate latest
 ```
