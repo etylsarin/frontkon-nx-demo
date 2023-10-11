@@ -19,6 +19,7 @@ nx g @nx/react:host host --remotes=remote
 ```
 nx g @nx/react:library --name=components --bundler=rollup --publishable --importPath=components --component=false
 nx g @nx/react:component frontkon --project=components
+nx g @nx/react:component brno --project=components
 ```
 
 

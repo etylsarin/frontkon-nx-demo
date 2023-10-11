@@ -1,9 +1,8 @@
 import * as React from 'react';
 
-import NxWelcome from './nx-welcome';
-
 import { Link, Route, Routes } from 'react-router-dom';
 import { loadRemoteModule } from '@microfrontends/load-remote-module';
+import { Frontkon } from 'components';
 
 const Remote = React.lazy(() => loadRemoteModule('remote', './Module'));
 
@@ -20,8 +19,7 @@ export function App() {
         </li>
       </ul>
       <Routes>
-        <Route path="/" element={<NxWelcome title="host" />} />
-
+        <Route path="/" element={<Frontkon />} />
         <Route path="/remote" element={<Remote />} />
       </Routes>
     </React.Suspense>

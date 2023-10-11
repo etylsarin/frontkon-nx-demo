@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@microfrontends/load-remote-module": ["load-remote-module/src/index.ts"],
+      "components": ["components/src/index.ts"],
       "remote/Module": ["remote/src/remote-entry.ts"]
     }
   },
