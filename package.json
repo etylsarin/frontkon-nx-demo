@@ -75,5 +75,15 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "resolutions": {
+    "**/deepmerge": "npm:@shivammathur/deepmerge@4.3.2",
+    "**/serialize-javascript": "^7.1.4",
+    "**/uuid": "^11.1.1",
+    "**/nx/js-yaml": "^4.1.1",
+    "**/wait-on/axios": "^0.30.2",
+    "**/@mole-inc/bin-wrapper/file-type": "^21.3.1",
+    "**/webpack": "~5.106.2",
+    "**/rollup-plugin-typescript2": "^0.37.0"
+  }
 }
